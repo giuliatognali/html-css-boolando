@@ -184,6 +184,9 @@ main .container{
 .box-img > img:hover{
     display: none;
 }
+.heart:hover{
+    color: red;
+}
 
 /* 
 -------------------
