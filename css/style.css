@@ -23,6 +23,18 @@ Common
 li {
     list-style-type: none;
 }
+/* 
+-------------------
+Typo
+-------------------
+*/
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+
+header, footer{
+    color: white;
+}
 
 /* 
 -------------------
@@ -40,10 +52,20 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 5px 0;
+    align-items: center;
+    padding: 15px 0;
 }
 
 
 nav ul {
     display: flex;
+    gap: 10px;
+}
+nav img{
+    display: inline-block;
+    width: 135px;
+    padding-right: 10px;
+}
+header i{
+    color: white;
 }
