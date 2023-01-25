@@ -15,11 +15,14 @@ Debag
 -------------------
 */
 
-.debag main .container{
+/* .debag main .container{
     height: 1500px;
     background-color: bisque;
-}
+} */
+.debag footer{
+    height: 100px;
 
+}
 
 /* 
 -------------------
@@ -40,6 +43,15 @@ li {
 Typo
 -------------------
 */
+
+.box-info .price span{
+    color: red;
+}
+.box-info .price .oldprice{
+    color: black;
+    text-decoration: line-through;
+
+}
 body{
     font-family: 'Roboto', sans-serif; 
 }
@@ -101,11 +113,15 @@ main .container{
     flex-wrap: wrap;
 
 }
-.box{
+.box-img{
     position: relative;
     height: 650px;
     width: 450px;
 }
+.box{
+    margin-bottom: 60px;
+}
+
 .box img{
     position: absolute;
     width: 100%;
@@ -132,4 +148,31 @@ main .container{
 .box6 .sost{
     bottom:40px;
     left:0;
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 10px;
+    font-size: 30px;
+    padding: 5px 15px;
+}
+
+.box-info{
+    margin-top: 5px;
+}
+.price{
+    display: inline-block;
+}
+
+
+
+/* 
+-------------------
+Footer
+-------------------
+*/
+footer{
+    background-color:#1a1a1a ;
 }
