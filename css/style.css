@@ -19,10 +19,10 @@ Debag
     height: 1500px;
     background-color: bisque;
 } */
-.debag footer{
+/* .debag footer{
     height: 100px;
 
-}
+} */
 
 /* 
 -------------------
@@ -102,15 +102,21 @@ nav {
     padding: 15px 0;
 }
 
-
+nav > .genere, 
+nav > .icons{
+    width: 15%;
+}
 nav ul {
     display: flex;
     gap: 10px;
 }
-nav img{
+
+nav .icons{
+    justify-content: right
+}
+nav .logo{
     display: inline-block;
     width: 135px;
-    padding-right: 10px;
 }
 header i{
     color: white;
@@ -183,9 +189,11 @@ main .container{
 
 .box-img > img:hover{
     display: none;
+    transition: 0.5s;
 }
 .heart:hover{
     color: red;
+    transition: 0.5s;    
 }
 
 /* 
@@ -208,15 +216,16 @@ footer{
 footer .container{
     display: flex;
     justify-content: space-between;
+    padding: 20px 0;
 }
 
 .footer-social ul li{
     padding-top: 5px;
     display: inline-block;
-
 }
 .footer-social ul a{
     color: white;
     font-size: 20px;
     padding: 0 2.5px;    
 }
+
